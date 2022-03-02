@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.grid-layout {
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 70px 70px 70px;
+    justify-content: stretch;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #5901fc;
+    gap: 20px;
+    font-size: medium;
+    z-index: 2;
+}
+
+.caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #5901fc;
+    text-align: center;
+    color: rgb(145, 255, 0);
+}
+
+.c1 {
+    grid-column: 1/4;
+    font-size: large;
+}
+
+.boton {
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+}

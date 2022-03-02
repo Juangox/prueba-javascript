@@ -1,0 +1,80 @@
+.arica {
+    background-image: url("img/arica.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.grid-layout {
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 70px 70px;
+    justify-content: stretch;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #5901fc;
+    gap: 20px;
+    font-size: medium;
+}
+
+.caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #5901fc;
+    text-align: center;
+    color: rgb(145, 255, 0);
+}
+
+.c1 {
+    grid-column: 1/3;
+    font-size: large;
+}
+
+.boton {
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iquique {
+    background-image: url("img/iquique.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.laserena {
+    background-image: url("img/serena.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.santiago {
+    background-image: url("img/santiago.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.concepcion {
+    background-image: url("img/conce.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.talca {
+    background-image: url("img/talca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
